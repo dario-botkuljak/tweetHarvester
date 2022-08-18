@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+pyyaml = "*"
+requests = "*"
+twarc = "*"
+pymongo = "*"
+boto3 = "*"
+cx-oracle = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
